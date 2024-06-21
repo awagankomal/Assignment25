@@ -3,7 +3,27 @@
     <head>
         <title>Percentage To Grade Conversion Program</title>
         <script>
+             document.write("Percentage To Grade Conversion Program");
+             let percentage =parseInt(prompt("Enter percentage value:  "));
 
+             if(percentage>=90){
+                document.write("Congratulations, You Got Grade A");
+             }
+             else if(percentage>=80){
+                document.write("Good Job, You Got Grade B");
+             }
+             else if(percentage>=70){
+                document.write("Well Done, You Got Grade C");
+             }
+             else if(percentage>=60){
+                document.write(" Well performed, You Got Grade D");
+             }
+             else if(percentage>=50){
+                document.write(" Improve more Next Time, You Got Grade E");
+             }
+             else{
+                document.write("Sorry try next time, Failed");
+             }
         </script>
     </head>
     <body></body>
